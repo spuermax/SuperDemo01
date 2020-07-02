@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xdp_100"
+        android:text="Hello World!"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.developers.superdemo01.smooth.SmoothInputLayout
+        android:id="@+id/smooth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        app:silInputPane="@+id/ll_emoji"
+        app:silInputView="@+id/edit_chat">
+
+        <View
+            android:id="@+id/sil_v_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xdp_50"
+            android:background="@color/white"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_expression"
+                android:layout_width="@dimen/xdp_23"
+                android:layout_height="@dimen/xdp_23"
+                android:layout_marginLeft="@dimen/xdp_15"
+                android:src="@mipmap/icon_smile" />
+
+            <EditText
+                android:id="@+id/edit_chat"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/xdp_38"
+                android:layout_marginLeft="@dimen/xdp_10"
+                android:layout_weight="1"
+                android:hint="我也来说两句～"
+                android:imeOptions="actionSend"
+                android:paddingLeft="@dimen/xdp_15"
+                android:singleLine="true"
+                android:textColor="@color/color_323C32"
+                android:textColorHint="@color/color_CACFCA"
+                android:textSize="@dimen/xdp_14" />
+
+            <ImageView
+                android:id="@+id/iv_one"
+                android:layout_width="@dimen/xdp_27"
+                android:layout_height="@dimen/xdp_27"
+                android:layout_marginLeft="@dimen/xdp_10"
+                android:layout_marginRight="@dimen/xdp_12"
+                android:src="@mipmap/iv_one" />
+
+            <ImageView
+                android:id="@+id/iv_two"
+                android:layout_width="@dimen/xdp_27"
+                android:layout_height="@dimen/xdp_27"
+                android:layout_marginRight="@dimen/xdp_15"
+                android:src="@mipmap/iv_two" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_emoji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xdp_15"
+                android:layout_marginRight="@dimen/xdp_15" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xdp_20">
+
+
+                <ImageView
+                    android:id="@+id/iv_send_emoji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/xdp_30"
+                    android:layout_marginLeft="@dimen/xdp_15"
+                    android:layout_weight="1"
+                    android:src="@mipmap/btn_send_out"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.developers.superdemo01.smooth.SmoothInputLayout>
+
+
+</android.support.constraint.ConstraintLayout>

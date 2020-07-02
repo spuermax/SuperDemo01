@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--                     v2.0                    -->
+    <color name="es_bg">#F5F5F5</color>
+    <color name="es_bg_white">#FFFFFF</color>
+    <color name="es_divider">#F5F5F5</color>
+    <color name="bar_line">#F1F1F1</color>
+
+    <color name="es_green">#01AE66</color>
+    <color name="yellow">#FF9800</color>
+    <color name="red">#FF5722</color>
+    <color name="gray">#808080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="es_font_white">#FFFFFF</color>
+    <color name="es_font_1">#313131</color>
+    <color name="es_font_2">#616161</color>
+    <color name="es_font_3">#919191</color>
+    <color name="es_font_4">#B0BDC9</color>
+
+
+    <!--                     v5.1                    -->
+    <color name="color_FF8800">#FF8800</color>
+    <color name="color_FFA800">#FFA800</color>
+    <color name="color_AAADAA">#AAADAA</color>
+    <color name="color_323C32">#323C32</color>
+    <color name="color_0DD280">#0DD280</color>
+    <color name="color_FBFBFB">#FBFBFB</color>
+    <color name="color_898D89">#898D89</color>
+    <color name="color_CACFCA">#CACFCA</color>
+    <color name="color_FF5529">#FF5529</color>
+    <color name="color_FFE9CF">#FFE9CF</color>
+    <color name="color_00AE66">#00AE66</color>
+    <color name="primary_color">#03C777</color>
+
+
+    <!--                     v5.2                    -->
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_F8F8F8">#F8F8F8</color>
+    <color name="color_11D69A">#11D69A</color>
+    <color name="color_DEE0DE">#DEE0DE</color>
+    <color name="color_E5E5E5">#E5E5E5</color>
+    <color name="color_F1FAF7">#F1FAF7</color>
+    <color name="color_74CEA9">#74CEA9</color>
+    <color name="color_F6F6F6">#F6F6F6</color>
+    <color name="color_404046">#404046</color>
+
+
+    <!--                     v5.3                    -->
+    <color name="color_D9D9D9">#D9D9D9</color>
+    <color name="color_800000">#80FFFFFF</color>
+    <color name="color_182A18">#182A18</color>
+    <color name="color_F2F2F2">#F2F2F2</color>
+
+
+    <!--                     v5.6                    -->
+    <color name="color_50C796">#50C796</color>
+
+</resources>
